@@ -1,0 +1,29 @@
+{
+  "name": "shoppinglist-react-app",
+  "version": "1.0.0",
+  "description": "Shopping list with MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulSender/shoppinglist-react-app.git"
+  },
+  "author": "Paul Sender",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulSender/shoppinglist-react-app/issues"
+  },
+  "homepage": "https://github.com/PaulSender/shoppinglist-react-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
